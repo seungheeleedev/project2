@@ -1,4 +1,4 @@
-# BLIND CANEㅇ
+# BLIND CANE
 > 2019년도 동계학기 팀 프로젝트
 
 <br/>
