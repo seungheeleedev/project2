@@ -167,7 +167,9 @@ void loop()
 
 
 #### 초음파 센서 & 진동 모터 & 피에조 부저 Test (2_Ultrasonic_sensor_Vibration_motor_Piezo_buzzer)
-초음파 센서로부터 50cm 이내로 물체가 감지되었을 때 진동 모터가 진동 세기 255로 ON&피에조 부저가 5옥타브 라음으로 0.1초간 ON
+초음파 센서로부터 50cm 이내로 물체가 감지되었을 때
+
+진동 모터가 진동 세기 255로 ON&피에조 부저가 5옥타브 라음으로 0.1초간 ON
 
 ```
 int motor = 6; // 진동 모터를 6번핀으로 선언
@@ -341,7 +343,9 @@ void printDec(byte *buffer, byte bufferSize)
 ```
 
 #### RFID & 피에조 부저 Test (3_RFID_Piezo_buzzer)
-RFID 카드 ID가 지정된 ID일 경우 피에조 부저가 4옥타브 라음으로 0.1초간 ON & 지정된 ID가 아닌 경우 피에조 부저가 4옥타브 라음으로 0.1초간 두번 ON
+RFID 카드 ID가 지정된 ID일 경우 피에조 부저가 4옥타브 라음으로 0.1초간 ON
+
+RFID 카드 ID가 지정된 ID가 아닌 경우 피에조 부저가 4옥타브 라음으로 0.1초간 두번 ON
 
 ```
 #include <SPI.h>
